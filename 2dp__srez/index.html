@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/main.js" defer></script>
+  <title>Srez</title>
+</head>
+
+<body>
+  <header>
+    <div class="container header__content">
+      <img src="./assets/images/logotype/logotype.svg" alt="logotype" class="logotype">
+      <nav>
+        <ul class="header_menu">
+          <li>
+            <div class="link_expand">
+              <ul class="link_expand__content">
+                <li><a href="">Фотосессия</a></li>
+                <li><a href="">Обработка фото</a></li>
+                <li><a href="">Объектная фотосессия</a></li>
+              </ul>
+              <a href="">
+                Услуги <span class="link_expand__arrow"></span>&#x25BE;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="openRequestModalBtn">
+        Оставить заявку
+      </button>
+    </div>
+  </header>
+
+  <section class="card">
+    <div class="container card__content">
+      <div class="card__text">
+        <h1 class="card__headline">Лучшие моменты в лучшем качестве</h1>
+        <p class="card__description">Запишитесь на фотосессию прямо сейчас!</p>
+        <button id="openRequestModalBtnCard">
+          Записаться
+        </button>
+      </div>
+      <img src="./assets/images/card/card-image.jpg" alt="card" class="card__image">
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="headline">Наши услуги</h2>
+      <div class="services__wrapper">
+        <article class="service">
+          <img class="service__cover" src="./assets/images/services/2.jpg" alt="card image">
+          <div class="service__content">
+            <p class="service__title">Обработка фото</p>
+            <p class="service__description">Профессиональная обработка фотографий</p>
+            <p class="service__price">1000 руб./1 изображение</p>
+            <button class="service__button">
+              Оформить
+            </button>
+          </div>
+        </article>
+        <article class="service">
+          <img class="service__cover" src="./assets/images/services/1.jpeg" alt="card image">
+          <div class="service__content">
+            <p class="service__title">Фотосессия</p>
+            <p class="service__description">Раскройтесь на индивидуальной фотосессии</p>
+            <p class="service__price">5000 руб./час</p>
+            <button class="service__button">
+              Оформить
+            </button>
+          </div>
+        </article>
+        <article class="service">
+          <img class="service__cover" src="./assets/images/services/3.jpg" alt="card image">
+          <div class="service__content">
+            <p class="service__title">Объектная фотосессия</p>
+            <p class="service__description">Лучшее решение, чтобы повысить продажи</p>
+            <p class="service__price">7000 руб./час</p>
+            <button class="service__button">
+              Оформить
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <h2 class="headline">Вопрос-ответ</h2>
+      <div class="faq__container">
+        <div class="accordion">
+          <div class="accordion__trigger">
+            <p class="accordion__title">Почему?</p>
+            <p class="accordion__icon">&#43;</p>
+          </div>
+          <div class="accordion__content">
+            <p>Потому что</p>
+          </div>
+        </div>
+        <div class="accordion">
+          <div class="accordion__trigger">
+            <p class="accordion__title">Почему?</p>
+            <p class="accordion__icon">&#43;</p>
+          </div>
+          <div class="accordion__content">
+            <p>Потому что</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container contacts__content">
+      <h2 class="headline">Контакты</h2>
+      <div class="contacts__info_map">
+        <ul class="contacts__wrapper">
+          <li>
+            <p class="contact__name">Телефон</p>
+            <p class="contact__value">+7 123 123-12-23</p>
+          </li>
+          <li>
+            <p class="contact__name">Telegram</p>
+            <p class="contact__value">@photo_magic</p>
+          </li>
+          <li>
+            <p class="contact__name">VK</p>
+            <p class="contact__value">@photo_magic</p>
+          </li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1121.2441865147005!2d49.17913835515897!3d55.80212146487734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb281ef8e4d65%3A0x5b12cc06fe4a5dfe!2z0JrQsNC30LDQvdGB0LrQuNC5INGC0LXRhdC90LjQutGD0Lwg0LjQvdGE0L7RgNC80LDRhtC40L7QvdC90YvRhSDRgtC10YXQvdC-0LvQvtCz0LjQuSDQuCDRgdCy0Y_Qt9C4!5e0!3m2!1sru!2sru!4v1733303837402!5m2!1sru!2sru"
+                class="contacts__map" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer__content">
+      <img src="./assets/images/logotype/logotype.svg" alt="logotype" class="logotype">
+      <nav>
+        <ul class="header_menu">
+          <li>
+            <a href="">Услуги</a>
+          </li>
+          <li>
+            <a href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <dialog id="make_request">
+    <span class="close">X</span>
+    <h2 class="headline">Записаться на фотосессию</h2>
+    <form class="make_request_form">
+      <input type="email" name="email" placeholder="E-mail" required>
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </dialog>
+</body>
+</html>
